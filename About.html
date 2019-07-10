@@ -1,0 +1,96 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<title>About Us</title>
+ 	<link rel="stylesheet" href="csscode/sty.css">
+ 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body bgcolor="black">
+    <nav>
+		<div class="menu-icon">
+			<i class="fa fa-bars fa-2x"></i>
+		</div>
+		<div class="logo">IED</div>
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="Products.html">Products</a></li>
+				<li><a href="Buy.html">Buy Now</a></li>
+			</ul>
+		</div>
+	</nav>
+    <div id="fullpage">
+		<section>
+			<div class = "container">
+				<span class = "text_1"> About Us </span>
+				<span class = "text_2">______________________</span>
+			</div>
+		</section>
+		<section>
+		<div class="content">
+			<h1>Arundhati <span>Bhattacharya</span></h1>
+			<div class="something">
+				Responsible for the ingenius gesture controlled speaker concept and flawless implementation of the same. <br>Also contributed to the timely completion of the poster.
+			</div>
+			<br>
+			<h1>Atishay <span>Jain</span></h1>
+			<div class="something">
+				Responsible for collaborating and managing all the team members and ideating.<br>
+				Contributed to project by designing the table's design, wireless charging module and the table's modular wiring. <br>
+				Also designed the website and created content.
+			</div>	
+			<br>	
+			<h1>Prashansa <span>Tanwar</span></h1>
+			<div class="something">
+				Responsible for the innovative gesture controlled mood lighting module.
+			</div>	
+			<br>		
+			<h1>Tanmay <span>Jain</span></h1>
+			<div class="something">
+				Responsible for the desgin and implementation of a smart digital locker and developing the app support required for the same.
+		</div>
+		</section>
+	</div>
+	<script type="text/javascript">
+      // Menu-toggle button
+	$(document).ready(function() {
+		$(".menu-icon").on("click", function() {
+			$("nav ul").toggleClass("showing");
+		});
+	});
+      // Scrolling Effect
+    $(window).on("scroll", function() {
+		if($(window).scrollTop()) {
+			$('nav').addClass('black');
+		}
+		else {
+			$('nav').removeClass('black');
+		}
+    })
+	</script>
+	<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js'></script> 
+	<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script> 
+	<script type="text/javascript" src='./js/jquery.fullpage.min.js'></script> 
+	<script type="text/javascript">
+    FastClick.attach(document.body);
+      $('#fullpage').fullpage();
+	</script>
+  	<script type="text/javascript">
+    	var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-36251023-1']);
+		_gaq.push(['_setDomainName', 'jqueryscript.net']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</body>
+</html>
