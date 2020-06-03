@@ -1,6 +1,6 @@
 # IED
 
-### The website was made to present a course project.
+#### The website was made to present a course project.
 
 ## File Description
 
