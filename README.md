@@ -4,9 +4,9 @@
 
 ## File Description
 
-* csscode - Contains all CSS files required for styling
+* css - Contains all CSS files required for styling the website
 
-* js - contains javascript for countdown and menu bar
+* js - contains javascript for implementing the countdown and menu bar
 
 ### static
 
